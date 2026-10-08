@@ -1,73 +1,109 @@
-# LLM Compliance Bench
+<h1 align="center">LLM Compliance Bench</h1>
 
-Can an LLM be trusted to apply a business policy? This project benchmarks several
-LLM prompting strategies, up to a retrieval-augmented (RAG) approach, on a concrete
-case: checking airline baggage compliance with IBM watsonx.ai (Mistral Large).
+<p align="center">
+  Can an LLM be trusted to apply a business policy?<br>
+  Benchmarking prompting strategies and RAG on airline baggage compliance.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3-blue" alt="Python 3">
+  <img src="https://img.shields.io/badge/IBM-watsonx.ai-052FAD" alt="watsonx.ai">
+  <img src="https://img.shields.io/badge/LLM-Mistral%20Large-orange" alt="Mistral Large">
+  <img src="https://img.shields.io/badge/Method-RAG-success" alt="RAG">
+  <img src="https://img.shields.io/badge/License-Apache%202.0-lightgrey" alt="Apache 2.0">
+</p>
 
 Developed in the AI track of CentraleSupelec (2024-25) with IBM France Lab:
 *Leveraging LLMs for Business Logic Extraction and Inference*.
 
-## The problem
+## :dart: The problem
 
-Given a passenger (travel class, age category, list of luggage items) and the airline
-baggage policy, the model must return:
+Given a passenger (travel class, age category, luggage items) and the airline baggage
+policy, the model must return:
 
-- **compliance_result**: does the luggage comply with the policy?
-- **compliance_message**: why not, if it does not comply
-- **fees**: the extra fees to pay
-- **cargo_items**: items that must travel as cargo
+| Field | Meaning |
+|---|---|
+| `compliance_result` | Does the luggage comply with the policy? |
+| `compliance_message` | Why not, if it does not comply |
+| `fees` | Extra fees to pay |
+| `cargo_items` | Items that must travel as cargo |
 
 The policy sets weight, size and quantity limits per travel class, so the model has to
 reason over several rules at once instead of just recognising patterns.
 
-## What we did
+## :bulb: What we did
 
-1. **Data correction.** We reviewed the synthetic policy and data generator, fixed
-   inconsistencies in `policy.txt` and in the generator, and produced a clean labelled
-   dataset to use as ground truth.
-2. **Prompting strategies.** We implemented and compared five approaches, each one
-   built from the lessons of the previous one (see below).
-3. **Evaluation framework.** We defined metrics for every part of the answer and added
-   an LLM-as-a-judge to evaluate the compliance explanations.
+1. **Cleaned the data:** fixed inconsistencies in the policy and in the data generator
+   to obtain a reliable labelled dataset.
+2. **Compared five LLM strategies**, each one built from the lessons of the previous one.
+3. **Built an evaluation framework** with metrics for every part of the answer, plus an
+   LLM-as-a-judge for the explanations.
 
-## Techniques
+## :test_tube: Techniques
+
+`Batch` -> `Iterative simple` -> `Iterative few-shot` -> `Iterative questions` -> `RAG`
 
 | Technique | Idea |
 |---|---|
-| **Batch** | The whole policy and many passengers (up to ~145) go into a single prompt. Simple, but the model loses precision along the way and the JSON output becomes unreliable. |
-| **Iterative simple** | One prompt per passenger, with the policy, travel class, age and luggage list. Outputs are parsed as JSON, with up to three attempts per passenger. |
-| **Iterative few-shot** | Same as iterative simple, but with example conversations (compliant, non-compliant, surcharge cases) added before the question. |
-| **Iterative questions** | The reasoning is split into sub-tasks (carry-on analysis, checked luggage, cargo items, final compliance and fees), each with its own prompt and fed with the previous results. |
-| **RAG (hybrid)** | Each passenger is turned into a structured record. Records are vectorised (all-MiniLM-L6-v2 embeddings combined with TF-IDF) and the most similar solved cases are retrieved and added to the prompt as examples. The closest match is excluded at each step to avoid leaking the answer. |
+| **Batch** | Policy + many passengers (up to ~145) in a single prompt. Simple, but precision drops and the JSON output becomes unreliable. |
+| **Iterative simple** | One prompt per passenger, with up to 3 attempts to get valid JSON. |
+| **Iterative few-shot** | Same, with example conversations (compliant, non-compliant, surcharge cases) added to the prompt. |
+| **Iterative questions** | Reasoning split into sub-tasks (carry-on, checked luggage, cargo, final decision), each with its own prompt. |
+| **RAG (hybrid)** | Passengers are vectorised (all-MiniLM-L6-v2 + TF-IDF); the most similar solved cases are retrieved and given to the model as examples. The closest match is excluded to avoid leaking the answer. |
 
-Main takeaways: processing one passenger per prompt is far more robust than batching;
-splitting the reasoning into many steps did not help because errors accumulate between
-steps; giving the model similar solved cases was the most effective way to improve its
-answers.
+**Takeaways:** one prompt per passenger is much more robust than batching; splitting the
+reasoning into many steps accumulates errors; giving the model similar solved cases was
+the most effective improvement.
 
-## Evaluation metrics
+## :straight_ruler: Metrics
 
-- **Compliance:** accuracy, precision, recall, F1 and confusion matrix.
-- **Fees:** exact match, tolerance within 5/10, MAE, RMSE and MAPE.
-- **Cargo items:** precision, recall, F1 and Jaccard score.
-- **Compliance messages:** coverage rate of the expected reasons, evaluated by an
-  LLM-as-a-judge that accepts different formulations of the same explanation.
+| Part of the answer | Metrics |
+|---|---|
+| Compliance | Accuracy, precision, recall, F1, confusion matrix |
+| Fees | Exact match, tolerance within 5/10, MAE, RMSE, MAPE |
+| Cargo items | Precision, recall, F1, Jaccard |
+| Messages | Coverage of expected reasons, judged by an LLM (LLM-as-a-judge) |
 
-## Repository structure
+## :file_folder: How the files are organized
 
 ```
-data/             policy.txt, dataset.csv (labelled passengers)
-data_generator/   synthetic data generator and policy tester
-experiments/      numbered development scripts (see below)
-results/          metrics, predictions and figures
-docs/             final report, presentation, RAG design notes
-src/, main.py, research.py   evaluation framework (see below)
+llm-compliance-bench/
+|-- README.md, LICENSE, requirements.txt, .env.example
+|
+|-- main.py              Evaluate all approaches, generate plots
+|-- research.py          CLI to run each approach
+|-- src/                 Evaluation framework
+|   |-- config.py        Constants, hyperparameters, paths
+|   |-- data.py          Data loading
+|   |-- prompts.py       Prompt templates
+|   |-- rag.py           TF-IDF similarity retrieval
+|   |-- metrics.py       Metrics + LLM-as-judge
+|   |-- plotting.py      Comparison charts
+|   |-- utils.py         LLM setup, JSON extraction
+|
+|-- data/
+|   |-- policy.txt       Baggage policy (corrected)
+|   |-- dataset.csv      Labelled passengers (ground truth)
+|
+|-- data_generator/      Synthetic data: generators, policy model, testers
+|
+|-- experiments/         Numbered development scripts (see below)
+|
+|-- results/
+|   |-- experiments/     Outputs of the development scripts
+|   |-- figures/         F1 evolution plots
+|   |-- *.json           Outputs of the evaluation framework
+|
+|-- docs/                Report, presentation, RAG design notes
 ```
 
-## Development scripts
+**Two layers of code:**
+- `main.py`, `research.py`, `src/` is the **final framework**: one CLI that runs and
+  compares all approaches.
+- `experiments/` holds the **prototypes** written along the way. Read them in order.
 
-The scripts in `experiments/` are the prototypes written while building the approaches
-above. Each one adds an idea on top of the previous one.
+<details>
+<summary><b>Development scripts in <code>experiments/</code></b></summary>
 
 | # | Script | Idea |
 |---|---|---|
@@ -78,59 +114,37 @@ above. Each one adds an idea on top of the previous one.
 | 05 | `05_rag_similar_cases.py` | RAG with similar solved cases |
 | 06 | `06_funnel_rule_based_rag.py` | Rule-based "funnel" RAG |
 | 07 | `07_llm_vs_funnel.py` | LLM vs funnel comparison |
-| 08 | `08_compliance_fees_rag.py` | Final RAG: ComplianceRAG + FeesRAG (fee clusters) |
+| 08 | `08_compliance_fees_rag.py` | Final RAG: ComplianceRAG + FeesRAG |
 | 09 | `09_evaluation_clean_data.py` | Extended metrics on the cleaned dataset |
 
 Helpers: `luggage_calculator.py` (deterministic fee calculator) and
-`analyze_compliance_messages.py`. Raw outputs are in `results/experiments/` and
-figures in `results/figures/`.
+`analyze_compliance_messages.py`.
+</details>
 
-## Evaluation framework
-
-`research.py` and `main.py` run the five approaches (plus a multi-prompt variant) with a
-common CLI and compare them.
-
-| Name | Strategy |
-|---|---|
-| `batch` | All clients in a single prompt |
-| `iterative_simple` | One prompt per client |
-| `iterative_fsl` | Few-shot examples + one prompt per client |
-| `iterative_questions` | Multi-phase: policy comprehension, test cases, Q&A, then per-client |
-| `rag` | TF-IDF similarity retrieval of similar solved cases |
-| `multi_prompt` | Three prompt variants (standard, chain-of-thought, critical analysis) |
+## :rocket: Quick start
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env  # fill in WATSONX_API_KEY
+cp .env.example .env     # add your watsonx credentials
 
-python research.py -e iterative_simple -n 50
-python research.py -e all -n 50 --evaluate
-python main.py  # evaluate all + generate comparison plots
+python research.py -e iterative_simple -n 50     # run one approach on 50 cases
+python research.py -e all -n 50 --evaluate       # run and evaluate everything
+python main.py                                   # evaluate all + comparison plots
 ```
 
-```
-main.py              # Evaluate all experiments and generate plots
-research.py          # All experiments with CLI
-src/
-  config.py          # Constants, hyperparameters, paths
-  data.py            # Data loading
-  metrics.py         # Evaluation metrics + LLM-as-judge
-  plotting.py        # Comparison bar charts
-  prompts.py         # All prompt templates
-  rag.py             # TF-IDF similarity retrieval
-  utils.py           # LLM setup, JSON extraction, helpers
-```
+Available approaches (`-e`): `batch`, `iterative_simple`, `iterative_fsl`,
+`iterative_questions`, `rag`, `multi_prompt`.
 
-The development scripts contain a placeholder `YOUR_WATSONX_API_KEY`: replace it with
-your own key and never commit it. Run them from the repository root; some of them read
-the original datasets from a local checkout of `DecisionsDev/policy-corpus`.
+The scripts in `experiments/` contain a placeholder `YOUR_WATSONX_API_KEY`: use your own
+key and never commit it. Run them from the repository root; some read the original
+datasets from a local checkout of `DecisionsDev/policy-corpus`.
 
-## Acknowledgements
+## :handshake: Acknowledgements
 
 The luggage policy, data generator and test datasets are based on
 [DecisionsDev/policy-corpus](https://github.com/DecisionsDev/policy-corpus)
-(Apache License 2.0). Modifications: corrected/cleaned dataset, evaluation
-metrics, prompting strategies and RAG experiments.
+(Apache License 2.0). Modifications: corrected/cleaned dataset, evaluation metrics,
+prompting strategies and RAG experiments.
 
 The evaluation pipeline (`main.py`, `research.py`, `src/`) is adapted from
 [titouanbrunel/ibm-llm-policy-compliance](https://github.com/titouanbrunel/ibm-llm-policy-compliance).
