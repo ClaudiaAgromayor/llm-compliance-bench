@@ -16,7 +16,7 @@
 Developed in the AI track of CentraleSupelec (2024-25) with IBM France Lab:
 *Leveraging LLMs for Business Logic Extraction and Inference*.
 
-## :dart: The problem
+## The problem
 
 Given a passenger (travel class, age category, luggage items) and the airline baggage
 policy, the model must return:
@@ -31,7 +31,7 @@ policy, the model must return:
 The policy sets weight, size and quantity limits per travel class, so the model has to
 reason over several rules at once instead of just recognising patterns.
 
-## :bulb: What we did
+## What we did
 
 1. **Cleaned the data:** fixed inconsistencies in the policy and in the data generator
    to obtain a reliable labelled dataset.
@@ -39,7 +39,7 @@ reason over several rules at once instead of just recognising patterns.
 3. **Built an evaluation framework** with metrics for every part of the answer, plus an
    LLM-as-a-judge for the explanations.
 
-## :test_tube: Techniques
+## Techniques
 
 `Batch` -> `Iterative simple` -> `Iterative few-shot` -> `Iterative questions` -> `RAG`
 
@@ -55,7 +55,7 @@ reason over several rules at once instead of just recognising patterns.
 reasoning into many steps accumulates errors; giving the model similar solved cases was
 the most effective improvement.
 
-## :straight_ruler: Metrics
+## Metrics
 
 | Part of the answer | Metrics |
 |---|---|
@@ -64,7 +64,7 @@ the most effective improvement.
 | Cargo items | Precision, recall, F1, Jaccard |
 | Messages | Coverage of expected reasons, judged by an LLM (LLM-as-a-judge) |
 
-## :file_folder: How the files are organized
+## How the files are organized
 
 ```
 llm-compliance-bench/
@@ -121,7 +121,7 @@ Helpers: `luggage_calculator.py` (deterministic fee calculator) and
 `analyze_compliance_messages.py`.
 </details>
 
-## :rocket: Quick start
+## Quick start
 
 ```bash
 pip install -r requirements.txt
@@ -139,7 +139,7 @@ The scripts in `experiments/` contain a placeholder `YOUR_WATSONX_API_KEY`: use 
 key and never commit it. Run them from the repository root; some read the original
 datasets from a local checkout of `DecisionsDev/policy-corpus`.
 
-## :handshake: Acknowledgements
+## Acknowledgements
 
 The luggage policy, data generator and test datasets are based on
 [DecisionsDev/policy-corpus](https://github.com/DecisionsDev/policy-corpus)
