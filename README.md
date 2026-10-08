@@ -145,6 +145,3 @@ The luggage policy, data generator and test datasets are based on
 [DecisionsDev/policy-corpus](https://github.com/DecisionsDev/policy-corpus)
 (Apache License 2.0). Modifications: corrected/cleaned dataset, evaluation metrics,
 prompting strategies and RAG experiments.
-
-The evaluation pipeline (`main.py`, `research.py`, `src/`) is adapted from
-[titouanbrunel/ibm-llm-policy-compliance](https://github.com/titouanbrunel/ibm-llm-policy-compliance).
