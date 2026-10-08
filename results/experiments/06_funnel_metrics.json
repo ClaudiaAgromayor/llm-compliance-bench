@@ -1,0 +1,28 @@
+{
+  "compliance": {
+    "accuracy": 45.5,
+    "precision": 0.15,
+    "recall": 0.13432835820895522,
+    "f1_score": 0.14173228346456695,
+    "confusion_matrix": {
+      "true_positives": 9,
+      "true_negatives": 82,
+      "false_positives": 51,
+      "false_negatives": 58
+    }
+  },
+  "fees": {
+    "exact_match": 49.5,
+    "within_$5": 50.0,
+    "within_$10": 50.0,
+    "within_$20": 52.0,
+    "mae": 52.725100000000005,
+    "rmse": 99.99951303381432,
+    "mape": 33737600000013.805,
+    "baseline_improvement": -26.287664670658696
+  },
+  "cargo_items": {
+    "average_accuracy": 64.5
+  },
+  "sample_size": 200
+}

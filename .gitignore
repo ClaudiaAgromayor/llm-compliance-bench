@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+.coverage
+policy_embeddings/
+raw_responses*/
+chat_responses/
+pipeline_results/
+CR/

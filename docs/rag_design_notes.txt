@@ -1,0 +1,24 @@
+RAG
+
+Test 5:
+RAG(nouveau_cas) = LLM(politique + nouveau_cas + top_K_similaires)
+
+1. Objectif: améliorer la performance du LLM en lui fournissant des cas similaires pertinents avant de générer une réponse
+
+2. Deux etapes:
+- Recherche (Retrieval) : Trouve les 5 cas les plus similaires dans la base de données.
+- Génération : Utilise ces cas comme exemples pour guider la réponse du LLM.
+
+3. Comment ça marche?
+3.1. Représentation des cas: Chaque voyageur est transformé en une "fiche" standardisée (phrase descriptive) avec:
+
+"class_[Economy/Premium] age_[adult/child] compliant_[true/false] item_[type]_w[poids]..."
+
+3.2. Similarité mathématique :
+On calcule la ressemblance entre voyageurs avec cosinus similarity. Deux methodes possibles:
+- Embeddings avancés (Sentence Transformers) : Chaque cas = vecteur de 384 nombres.
+- TF-IDF (si échec) : Méthode statistique basée sur la fréquence des mots.
+
+3.3. Intégration au LLM :
+Les 3 cas les plus similaires sont ajoutés au prompt (consigne du LLM) comme exemples concrets.
+

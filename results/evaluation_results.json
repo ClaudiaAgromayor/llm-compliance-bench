@@ -1,0 +1,1581 @@
+[
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 14.52kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 5.78, \"height\": 56.75, \"width\": 41.29, \"depth\": 23.8, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 4.43, \"height\": 45.08, \"width\": 32.07, \"depth\": 23.81, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 4.31, \"height\": 1.66, \"width\": 52.86, \"depth\": 3.15, \"unit\": \"cm\"}]",
+      "fees": 175
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 325
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Erreur lors de l'analyse: The read operation timed out",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 14.13kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 14.13, \"height\": 23.91, \"width\": 1.3, \"depth\": 14.39, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded combined carry-on and personal item weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 30.490000000000002kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 1.08, \"height\": 69.3, \"width\": 68.8, \"depth\": 40.11, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 14.48, \"height\": 25.93, \"width\": 70.7, \"depth\": 31.1, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 14.93, \"height\": 30.27, \"width\": 75.3, \"depth\": 5.12, \"unit\": \"cm\"}]",
+      "fees": 175
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        2,
+        3
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked bag exceeds the maximum weight limit.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive quantities.",
+      "cargo_items": [],
+      "fees": 450
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 15.18kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 0.54, \"height\": 13.99, \"width\": 28.34, \"depth\": 21.85, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 8.87, \"height\": 2.41, \"width\": 64.05, \"depth\": 16.32, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 5.77, \"height\": 65.23, \"width\": 52.25, \"depth\": 36.36, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items). Some items must be shipped as cargo due to size.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggages comply with the airline's policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 14.63kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 14.63, \"height\": 30.73, \"width\": 75.26, \"depth\": 30.85, \"unit\": \"cm\"}]",
+      "fees": 175
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Personal item exceeds weight limit (14.63 kg > 7 kg), Exceeded checked baggage quantity allowance (2 > 1).",
+      "cargo_items": [
+        0
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggages comply with the airline's policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 3 bag(s) exceed quantity allowance, transferred to cargo. Total fees: €450 | Checked: The following items must be shipped as cargo: Bag 1: weight 43.15kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 3.55, \"height\": 8.42, \"width\": 6.06, \"depth\": 40.01, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 14.66, \"height\": 60.63, \"width\": 79.3, \"depth\": 35.6, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 0.65, \"height\": 10.59, \"width\": 19.05, \"depth\": 12.42, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 43.15, \"height\": 92.63, \"width\": 28.55, \"depth\": 25.4, \"unit\": \"cm\"}]",
+      "fees": 525
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 325
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked bag exceeds the maximum linear dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [],
+      "fees": 450
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 2 bag(s) exceed quantity allowance, transferred to cargo; Total weight 19.95kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €375 | Checked: The following items must be shipped as cargo: Bag 1: weight 47.93kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 0.25, \"height\": 75.44, \"width\": 78.9, \"depth\": 31.41, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 4.2, \"height\": 55.34, \"width\": 68.73, \"depth\": 42.21, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 10.08, \"height\": 3.55, \"width\": 47.32, \"depth\": 9.65, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 9.87, \"height\": 3.64, \"width\": 54.47, \"depth\": 7.44, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 47.93, \"height\": 31.61, \"width\": 15.77, \"depth\": 42.83, \"unit\": \"cm\"}]",
+      "fees": 450
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 375
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        4
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 12.97kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 12.97, \"height\": 26.94, \"width\": 17.81, \"depth\": 15.97, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Personal item exceeds maximum allowed dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items). Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded combined carry-on and personal item weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded carry-on quantity allowance; Checked baggage count exceeds the free allowance.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 300
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 28.560000000000002kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 13.61, \"height\": 29.47, \"width\": 73.5, \"depth\": 9.21, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 1.99, \"height\": 57.54, \"width\": 41.2, \"depth\": 33.74, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 12.96, \"height\": 79.71, \"width\": 76.57, \"depth\": 36.18, \"unit\": \"cm\"}]",
+      "fees": 175
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 13.879999999999999kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 6.92, \"height\": 32.18, \"width\": 33.16, \"depth\": 41.89, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 6.96, \"height\": 82.6, \"width\": 31.35, \"depth\": 27.08, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on/personal item exceeds size limits.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Checked: The following items must be shipped as cargo: Bag 3: weight 48.46kg exceeds 32kg limit. Total fees: €550 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"checked\", \"weight\": 48.46, \"height\": 79.66, \"width\": 62.41, \"depth\": 21.76, \"unit\": \"cm\"}]",
+      "fees": 550
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        4
+      ],
+      "fees": 375
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed size limits, transferred to cargo. Total fees: €100",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 4.25, \"height\": 67.5, \"width\": 76.53, \"depth\": 13.8, \"unit\": \"cm\"}]",
+      "fees": 100
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on/personal item exceeds size limits.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 2 bag(s) exceed size limits, transferred to cargo. Total fees: €200 | Checked: The following items must be shipped as cargo: Bag 2: weight 34.65kg exceeds 32kg limit. Total fees: €325 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 0.42, \"height\": 50.67, \"width\": 28.93, \"depth\": 23.16, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 5.3, \"height\": 45.31, \"width\": 67.54, \"depth\": 19.73, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 34.65, \"height\": 30.36, \"width\": 19.5, \"depth\": 38.89, \"unit\": \"cm\"}]",
+      "fees": 525
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 375
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked bag exceeds the maximum allowed weight.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 2 bag(s) exceed quantity allowance, transferred to cargo; Total weight 13.19kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €375",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 12.54, \"height\": 47.89, \"width\": 27.74, \"depth\": 11.7, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 12.55, \"height\": 18.27, \"width\": 25.92, \"depth\": 4.64, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 12.5, \"height\": 68.76, \"width\": 18.0, \"depth\": 20.11, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 0.69, \"height\": 70.46, \"width\": 73.21, \"depth\": 4.06, \"unit\": \"cm\"}]",
+      "fees": 375
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        1,
+        2
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 22.229999999999997kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: The following items must be shipped as cargo: Bag 1: weight 43.45kg exceeds 32kg limit; Bag 2: weight 37.32kg exceeds 32kg limit. Total fees: €550 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 8.37, \"height\": 8.27, \"width\": 73.62, \"depth\": 42.71, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 13.86, \"height\": 84.24, \"width\": 18.64, \"depth\": 28.02, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 43.45, \"height\": 54.31, \"width\": 62.32, \"depth\": 26.41, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 37.32, \"height\": 82.69, \"width\": 25.01, \"depth\": 34.22, \"unit\": \"cm\"}]",
+      "fees": 625
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 375
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Checked: The following items must be shipped as cargo: Bag 1: weight 43.15kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"checked\", \"weight\": 43.15, \"height\": 41.53, \"width\": 3.85, \"depth\": 30.52, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 15.010000000000002kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: The following items must be shipped as cargo: Bag 2: weight 41.84kg exceeds 32kg limit; Bag 3: weight 32.16kg exceeds 32kg limit. Total fees: €725 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 8.98, \"height\": 20.7, \"width\": 56.48, \"depth\": 34.39, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 6.03, \"height\": 16.87, \"width\": 75.62, \"depth\": 30.95, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 41.84, \"height\": 95.75, \"width\": 75.99, \"depth\": 20.66, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 32.16, \"height\": 23.89, \"width\": 28.64, \"depth\": 45.67, \"unit\": \"cm\"}]",
+      "fees": 800
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        1,
+        2
+      ],
+      "fees": 725
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 24.05kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 10.42, \"height\": 77.95, \"width\": 33.65, \"depth\": 13.56, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 13.63, \"height\": 11.71, \"width\": 21.96, \"depth\": 8.74, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [
+        0,
+        1
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded combined carry-on and personal item weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 26.43kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: The following items must be shipped as cargo: Bag 1: weight 41.16kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 8.66, \"height\": 66.13, \"width\": 13.29, \"depth\": 34.84, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 7.57, \"height\": 68.08, \"width\": 43.9, \"depth\": 31.79, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 10.2, \"height\": 16.04, \"width\": 75.03, \"depth\": 36.04, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 41.16, \"height\": 23.71, \"width\": 11.01, \"depth\": 19.8, \"unit\": \"cm\"}]",
+      "fees": 150
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0,
+        1,
+        2
+      ],
+      "fees": 525
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 2 bag(s) exceed quantity allowance, transferred to cargo; 1 bag(s) exceed size limits, transferred to cargo. Total fees: €400",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 6.43, \"height\": 34.83, \"width\": 36.74, \"depth\": 46.16, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 7.02, \"height\": 19.84, \"width\": 63.89, \"depth\": 24.85, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 1.79, \"height\": 65.99, \"width\": 51.29, \"depth\": 40.17, \"unit\": \"cm\"}]",
+      "fees": 400
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0,
+        4
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [],
+      "fees": 300
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        3
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 19.990000000000002kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: The following items must be shipped as cargo: Bag 1: weight 39.92kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 11.02, \"height\": 45.33, \"width\": 30.36, \"depth\": 26.83, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 8.97, \"height\": 65.71, \"width\": 21.94, \"depth\": 43.68, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 39.92, \"height\": 16.49, \"width\": 28.83, \"depth\": 17.88, \"unit\": \"cm\"}]",
+      "fees": 150
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded carry-on weight limit, carry-on bag exceeds size limits, exceeded checked baggage weight limit.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded checked baggage quantity allowance; Carry-on combined weight exceeds the limit.",
+      "cargo_items": [
+        4
+      ],
+      "fees": 375
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Checked: Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked bag exceeds the maximum allowed weight.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 17.71kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: The following items must be shipped as cargo: Bag 1: weight 40.43kg exceeds 32kg limit. Total fees: €175 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 14.75, \"height\": 88.49, \"width\": 34.84, \"depth\": 16.82, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 2.96, \"height\": 7.85, \"width\": 30.65, \"depth\": 36.67, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 40.43, \"height\": 81.04, \"width\": 41.85, \"depth\": 38.13, \"unit\": \"cm\"}]",
+      "fees": 250
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 10.2kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: The following items must be shipped as cargo: Bag 1: weight 34.51kg exceeds 32kg limit; Bag 2: weight 39.6kg exceeds 32kg limit. Total fees: €300 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 5.5, \"height\": 55.14, \"width\": 51.28, \"depth\": 39.88, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 4.7, \"height\": 53.56, \"width\": 56.34, \"depth\": 44.92, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 34.51, \"height\": 6.63, \"width\": 11.26, \"depth\": 7.08, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 39.6, \"height\": 65.22, \"width\": 28.78, \"depth\": 9.19, \"unit\": \"cm\"}]",
+      "fees": 375
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        1,
+        2
+      ],
+      "fees": 425
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Checked: The following items must be shipped as cargo: Bag 1: weight 35.06kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"checked\", \"weight\": 35.06, \"height\": 10.88, \"width\": 57.55, \"depth\": 1.89, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "One or more checked bags exceed the maximum weight limit.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        5
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded checked baggage quantity allowance; Checked bag #3 is within limits but excess piece fee applies.",
+      "cargo_items": [],
+      "fees": 300
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Checked: Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Checked bag exceeds weight limit and there is an excess piece.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed size limits, transferred to cargo. Total fees: €100",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 6.81, \"height\": 43.89, \"width\": 63.81, \"depth\": 10.01, \"unit\": \"cm\"}]",
+      "fees": 100
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Checked: The following items must be shipped as cargo: Bag 1: weight 35.57kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"checked\", \"weight\": 35.57, \"height\": 34.68, \"width\": 52.77, \"depth\": 19.12, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked bag exceeds the maximum allowed weight (32 kg) and must be shipped as cargo.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed size limits, transferred to cargo. Total fees: €100",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 1.8, \"height\": 59.92, \"width\": 8.96, \"depth\": 27.51, \"unit\": \"cm\"}]",
+      "fees": 100
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 150
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Checked: The following items must be shipped as cargo: Bag 1: weight 46.32kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"checked\", \"weight\": 46.32, \"height\": 61.33, \"width\": 16.98, \"depth\": 44.46, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked bag exceeds the maximum allowed weight for Economy class.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed quantity allowance, transferred to cargo; Total weight 9.65kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €225",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 8.07, \"height\": 34.31, \"width\": 30.18, \"depth\": 19.87, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 5.79, \"height\": 7.26, \"width\": 4.27, \"depth\": 2.91, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 3.86, \"height\": 10.17, \"width\": 30.37, \"depth\": 23.47, \"unit\": \"cm\"}]",
+      "fees": 225
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded carry-on quantity allowance; Carry-on items exceed combined weight limit.",
+      "cargo_items": [
+        3
+      ],
+      "fees": 375
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed quantity allowance, transferred to cargo; Total weight 35.91kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €225 | Checked: The following items must be shipped as cargo: Bag 1: weight 37.81kg exceeds 32kg limit. Total fees: €75 (cargo shipping costs not included - please contact cargo department). Consider splitting items or reducing weight/size to avoid cargo shipping.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 9.07, \"height\": 65.4, \"width\": 50.24, \"depth\": 34.23, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 7.15, \"height\": 67.36, \"width\": 75.34, \"depth\": 10.07, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 14.87, \"height\": 91.36, \"width\": 22.93, \"depth\": 12.93, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 13.89, \"height\": 19.22, \"width\": 68.1, \"depth\": 9.4, \"unit\": \"cm\"}, {\"storage\": \"checked\", \"weight\": 37.81, \"height\": 30.06, \"width\": 8.03, \"depth\": 48.02, \"unit\": \"cm\"}]",
+      "fees": 300
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 325
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded combined carry-on and personal item weight limit.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 25.630000000000003kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 8.76, \"height\": 54.79, \"width\": 36.4, \"depth\": 34.43, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 4.38, \"height\": 35.14, \"width\": 12.73, \"depth\": 2.32, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 12.49, \"height\": 68.81, \"width\": 24.77, \"depth\": 32.32, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0,
+        2
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 100
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 2 bag(s) exceed quantity allowance, transferred to cargo; Total weight 12.719999999999999kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €375",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 7.8, \"height\": 73.51, \"width\": 20.01, \"depth\": 1.65, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 4.58, \"height\": 20.3, \"width\": 50.46, \"depth\": 31.98, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 4.93, \"height\": 87.8, \"width\": 66.37, \"depth\": 42.09, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 3.78, \"height\": 10.71, \"width\": 62.92, \"depth\": 32.1, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 4.01, \"height\": 47.25, \"width\": 23.33, \"depth\": 18.24, \"unit\": \"cm\"}]",
+      "fees": 375
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items). Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed quantity allowance, transferred to cargo; Total weight 20.53kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €225",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 13.82, \"height\": 10.57, \"width\": 58.89, \"depth\": 36.12, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 9.18, \"height\": 41.71, \"width\": 29.01, \"depth\": 37.91, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 11.35, \"height\": 53.88, \"width\": 69.3, \"depth\": 46.52, \"unit\": \"cm\"}]",
+      "fees": 225
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded carry-on quantity allowance, exceeded combined carry-on weight limit, some carry-on bags exceed size limits.",
+      "cargo_items": [
+        2,
+        3
+      ],
+      "fees": 425
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 29.619999999999997kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 10.53, \"height\": 91.24, \"width\": 15.87, \"depth\": 6.89, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 8.26, \"height\": 31.1, \"width\": 37.34, \"depth\": 46.81, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 10.83, \"height\": 44.04, \"width\": 32.02, \"depth\": 48.25, \"unit\": \"cm\"}]",
+      "fees": 175
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded carry-on quantity allowance; Checked bag exceeds the maximum allowed weight.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 225
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 13.68kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 13.68, \"height\": 96.2, \"width\": 42.86, \"depth\": 6.85, \"unit\": \"cm\"}]",
+      "fees": 175
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        0
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 14.94kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 14.94, \"height\": 32.34, \"width\": 65.72, \"depth\": 45.27, \"unit\": \"cm\"}]",
+      "fees": 400
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded checked baggage quantity allowance; Personal item exceeds combined carry-on weight limit.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 300
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 13.200000000000001kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 0.39, \"height\": 87.73, \"width\": 11.85, \"depth\": 36.07, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 12.81, \"height\": 11.53, \"width\": 28.2, \"depth\": 35.51, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggages comply with the airline's policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed size limits, transferred to cargo. Total fees: €100",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 0.5, \"height\": 15.8, \"width\": 62.69, \"depth\": 17.71, \"unit\": \"cm\"}]",
+      "fees": 100
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found.",
+      "cargo_items": [
+        1
+      ],
+      "fees": 175
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: 1 bag(s) exceed quantity allowance, transferred to cargo; Total weight 25.42kg exceeds 12kg limit, all carry-on items transferred to cargo. Total fees: €225",
+      "cargo_items": "[{\"storage\": \"personal\", \"weight\": 7.74, \"height\": 68.5, \"width\": 16.76, \"depth\": 44.76, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 2.44, \"height\": 44.9, \"width\": 24.53, \"depth\": 22.48, \"unit\": \"cm\"}, {\"storage\": \"carry-on\", \"weight\": 13.73, \"height\": 16.37, \"width\": 74.35, \"depth\": 2.79, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 9.25, \"height\": 22.21, \"width\": 24.39, \"depth\": 5.13, \"unit\": \"cm\"}]",
+      "fees": 225
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        2,
+        4
+      ],
+      "fees": 275
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 20.32kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75 | Checked: Checked luggage complies with the policy.",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 9.58, \"height\": 13.39, \"width\": 59.64, \"depth\": 7.04, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 10.74, \"height\": 53.51, \"width\": 6.77, \"depth\": 0.24, \"unit\": \"cm\"}]",
+      "fees": 150
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found including excessive weights and dimensions.",
+      "cargo_items": [
+        0,
+        1
+      ],
+      "fees": 425
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items). Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        2
+      ],
+      "fees": 250
+    }
+  },
+  {
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on: Total weight 23.490000000000002kg exceeds 7kg limit, all carry-on items transferred to cargo. Total fees: €75",
+      "cargo_items": "[{\"storage\": \"carry-on\", \"weight\": 14.75, \"height\": 66.99, \"width\": 56.07, \"depth\": 5.27, \"unit\": \"cm\"}, {\"storage\": \"personal\", \"weight\": 8.74, \"height\": 33.1, \"width\": 31.2, \"depth\": 23.6, \"unit\": \"cm\"}]",
+      "fees": 75
+    },
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Multiple non-compliances found: Exceeded combined carry-on weight limit (23.49 kg > 7 kg), Personal item exceeds weight limit (8.74 kg > 7 kg). Some items must be shipped as cargo.",
+      "cargo_items": [
+        0,
+        1
+      ],
+      "fees": 250
+    }
+  }
+]

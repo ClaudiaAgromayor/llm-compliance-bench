@@ -1,0 +1,3026 @@
+[
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 300
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on luggage exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked baggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "El equipaje cumple con todos los requisitos de la política.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": false,
+          "compliance": true,
+          "weight": 40.35,
+          "height": 67.04,
+          "width": 2.7,
+          "depth": 21.5,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "carry-on",
+          "excess": true,
+          "special": true,
+          "compliance": false,
+          "weight": 44.01,
+          "height": 34.0,
+          "width": 37.07,
+          "depth": 49.74,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": true,
+          "compliance": false,
+          "weight": 0.71,
+          "height": 74.28,
+          "width": 64.34,
+          "depth": 22.05,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": false,
+          "compliance": true,
+          "weight": 48.25,
+          "height": 63.84,
+          "width": 3.6,
+          "depth": 48.23,
+          "unit": "cm"
+        },
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": true,
+          "compliance": true,
+          "weight": 45.83,
+          "height": 77.22,
+          "width": 13.73,
+          "depth": 29.03,
+          "unit": "cm"
+        }
+      ],
+      "fees": 400
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on luggage exceeds allowed dimensions.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": true,
+          "compliance": false,
+          "weight": 42.65,
+          "height": 5.39,
+          "width": 16.83,
+          "depth": 24.09,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items exceed the allowed dimensions and weight limits.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": false,
+          "compliance": false,
+          "weight": 3.12,
+          "height": 94.17,
+          "width": 6.02,
+          "depth": 23.55,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage does not comply with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items exceed the allowed weight limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items exceed the allowed weight limits.",
+      "cargo_items": [],
+      "fees": 150
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": true,
+          "compliance": false,
+          "weight": 44.89,
+          "height": 47.08,
+          "width": 71.0,
+          "depth": 29.52,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Personal item exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Personal item exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items exceed the allowed dimensions and weight limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 300
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage does not comply with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage exceeds maximum allowed dimensions.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bags exceed weight and size limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage exceeds allowed dimensions.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage does not comply with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage does not comply with the policy due to being marked as non-compliant.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": false,
+          "compliance": false,
+          "weight": 44.08,
+          "height": 19.0,
+          "width": 73.46,
+          "depth": 22.16,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items exceed the allowed dimensions.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage exceeds allowed weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": false,
+          "compliance": true,
+          "weight": 35.42,
+          "height": 46.24,
+          "width": 33.41,
+          "depth": 48.42,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked baggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage does not comply with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": true,
+          "compliance": false,
+          "weight": 40.44,
+          "height": 44.87,
+          "width": 1.02,
+          "depth": 0.79,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": false,
+          "compliance": true,
+          "weight": 48.25,
+          "height": 41.04,
+          "width": 11.73,
+          "depth": 26.73,
+          "unit": "cm"
+        },
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": true,
+          "compliance": false,
+          "weight": 40.44,
+          "height": 44.87,
+          "width": 1.02,
+          "depth": 0.79,
+          "unit": "cm"
+        }
+      ],
+      "fees": 150
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Personal item exceeds allowed dimensions.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "El equipaje cumple con la política.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on luggage exceeds allowed dimensions.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "El equipaje cumple con todos los requisitos de la política.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 300
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked baggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 300
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items exceed the allowed weight limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Personal item exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked baggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 200
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "All luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Checked luggage exceeds allowed dimensions.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bag exceeds size limits.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": true,
+          "compliance": false,
+          "weight": 15.42,
+          "height": 59.14,
+          "width": 23.38,
+          "depth": 47.06,
+          "unit": "cm"
+        },
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": true,
+          "compliance": false,
+          "weight": 11.73,
+          "height": 21.88,
+          "width": 4.34,
+          "depth": 36.36,
+          "unit": "cm"
+        }
+      ],
+      "fees": 150
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Personal item exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked luggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": true,
+          "compliance": false,
+          "weight": 45.11,
+          "height": 7.01,
+          "width": 18.18,
+          "depth": 46.31,
+          "unit": "cm"
+        },
+        {
+          "storage": "checked",
+          "excess": true,
+          "special": false,
+          "compliance": false,
+          "weight": 45.01,
+          "height": 39.01,
+          "width": 55.27,
+          "depth": 0.22,
+          "unit": "cm"
+        }
+      ],
+      "fees": 400
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on quantity allowance (including personal items).",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": false,
+          "compliance": false,
+          "weight": 41.83,
+          "height": 64.25,
+          "width": 30.5,
+          "depth": 33.21,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Some items must be shipped as cargo due to weight or size.",
+      "cargo_items": [
+        {
+          "storage": "checked",
+          "excess": false,
+          "special": false,
+          "compliance": false,
+          "weight": 41.83,
+          "height": 64.25,
+          "width": 30.5,
+          "depth": 33.21,
+          "unit": "cm"
+        }
+      ],
+      "fees": 75
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": true,
+      "compliance_message": "Checked luggage complies with the policy.",
+      "cargo_items": [],
+      "fees": 100
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Personal item exceeds weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Carry-on bags exceed size limits.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": true,
+      "compliance_message": "El equipaje cumple con la política.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded checked baggage weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  },
+  {
+    "predicted": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded personal item weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    },
+    "actual": {
+      "compliance_result": false,
+      "compliance_message": "Exceeded carry-on weight limit.",
+      "cargo_items": [],
+      "fees": 0
+    }
+  }
+]

@@ -1,0 +1,7 @@
+ibm-watsonx-ai
+langchain-ibm
+langchain-core
+pandas
+numpy
+scikit-learn
+matplotlib
